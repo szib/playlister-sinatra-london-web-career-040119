@@ -2,7 +2,7 @@
 Artist.destroy_all
 Song.destroy_all
 Genre.destroy_all
-Songgenre.destroy_all
+SongGenre.destroy_all
 
 a1 = Artist.create(name: 'AC/DC')
 a2 = Artist.create(name: 'Metallica')
