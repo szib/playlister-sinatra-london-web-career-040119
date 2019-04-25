@@ -1,5 +1,3 @@
-require_relative './concerns/slugifiable.rb'
-
 class Genre < ActiveRecord::Base
   extend Slugifiable::ClassMethods
   include Slugifiable::InstanceMethods
